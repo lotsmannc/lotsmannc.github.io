@@ -1,0 +1,29 @@
+@import url("themes/dark.css");
+@import url("themes/light.css");
+
+@import url("/elements/base.css");
+@import url("../profile.css");
+@import url("../contacts.css");
+
+html {
+    background-image: var(--wallpeaper);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    height: calc(100vh);
+    background-color: var(--main-bg);
+    color: var(--tcolor);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    padding: 12px;
+    display: inline-block;
+    transform: scale(1.0)
+}

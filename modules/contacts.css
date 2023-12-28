@@ -1,0 +1,38 @@
+@import url("ui/elements/base.css");
+
+.contacts-wrap {
+    width: 170px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contacts a {
+    text-decoration: underline;
+}
+
+.contacts ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 87px;
+}
+
+.contacts li {
+    padding: 0px 0;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+
+
+
+.ico {
+    margin-right: 4px;
+    margin-top: 2px;
+    width: 12px;
+    fill: var(--tcolor);
+}
+.git-ico {
+    width: 13px;
+    margin-top: -1px;
+}

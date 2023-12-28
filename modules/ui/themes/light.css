@@ -1,0 +1,8 @@
+html[theme="light"] {
+    --tcolor: #000;
+    --lcolor: #606060;
+    --accent: #e60000;
+    --wallpeaper: url(../../static_media/wallpeapers.webp);
+    --main-bg: rgba(92, 92, 92, 0.81);
+    --box-bg: rgba(255, 255, 255, 0.9);
+}
